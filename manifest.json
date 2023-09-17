@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Proxy Switch",
+    "version": "1.0",
+    "description": "Proxy switch",
+    "action": {
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "proxy"
+    ],
+    "incognito": "spanning"
+}
